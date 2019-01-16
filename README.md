@@ -3,10 +3,10 @@
 
 ## Project Name: OAUTH - {Provider}
 
-### Author: Student/Group Name
+### Author: Lena Eivy, Becca Lee and Caity Heath
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/applena/17-oauth)
 * [back-end demo](http://xyz.com) 
 * [front-end demo](http://xyz.com)
 
