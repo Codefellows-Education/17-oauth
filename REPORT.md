@@ -1,50 +1,50 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) OAuth Comparative Analysis
 ================================================================
 
-## OAuth Provider Name 
+## Wordpress OAuth Provider
 
-### Research Conducted By: Student Names
+### Research Conducted By: Caity Heath, Becca Lee, Lena Eivy
 
 ### Overall Score and Comments
-#### Score (Out of 10): 7
+#### Score (Out of 10): 6
 #### General Comments
-Describe the stack (front-end only? full stack?), database, efficiency, etc. Describe the general usability and learnability
+Wordpress is not the most user friendly site, however their documentation was well done and simple to understand. In order to authenticate, users need to press two buttons AND have a website through Wordpress. This might limit our potential user base. Also, the users who do have Wordpress sites would tend to fall into a specific demographic - mainly small business owners. Make sure this aligns with our target user. Also, Wordpress is a little slow. 
 
 #### Pros
-* Item 1
-* Item 2
+* Simple to use
+* don't need to define what our scope is - we can access all sorts of data just by chaning our endpoint (maybe this is a con)
+* direct and easy documentation
+* works with our database
 
 #### Cons
-* Item 1
-* Item 2
+* Limited and specific user base
+* not a great UX 
+* a little slow
 
 ### Ratings and Reviews
 #### Documentation
-Thoughts go here
+This is a simple OAuth to use and we'd recomend it. 
 
 #### Systems Requirements
-Above and beyond 'node' and 'linux', what dependencies or core requirements exist for this framework?  Can it play at AWS/Heroku?  Does it require a certain database?
+Beyond node, there were no specific core requirements. We did install mongo to use as a database system although any database system could be used. Wordpress does not limit. I don't know if it plays well with AWS but it does work on Heroku.
 
 #### Ramp-Up Projections
-How long would/should it take a team of mid-junior developers to become productive?
+If a team of mid-jr developers were working on this project, I predict it should take no more than a day to become profecient at working with Wordpress as an OAuth. 
 
 #### Community Support and Adoption levels
-How popular is this framework? What big companies are running on it? How is it "seen" in the general JS community?  Is there an active community of developers supporting and growing it?
+Wordpress is a popular content management system with over 75 million websites - 30% of all websites on the web. Big companies that use Wordpress include: The New Yorker, BBC America, Disney, Sony, and Beyonce. However, in general, it is used by smaller companies. It is not very well regarded in the JS community - relying on a php framework and antiquated technologies such as css floats. Despite this impression, there remains an active community of developers supporting the site - continually developing new themes and using it as a way of generating a quick site for low budget clients. 
 
 
 ### Links and Resources
-* [framework](http://xyz.com)
-* [docs](http://xyz.com)
-* [examples/tutorials](http://xyz.com)
+* [framework](https://github.com/applena/17-oauth)
+* [docs](http://)
 
 ### Code Demos
-* [live/running application](http://xyz.com)
-* [code repository](http://xyz.com)
+* [live/running application](https://agile-beach-13174.herokuapp.com/)
+* [code repository](https://github.com/applena/17-oauth)
 
 ### Operating Instructions
-If someone were to download your repo (above), what steps do they need to take to run the application
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* in the web server folder, open a terminal and run: `npm start`
+* in the auth server folder, open a terminal and run: `npm start`
+* in the browser, go to: `http://localhost:8080`
+* click on the link that says, "sign in using Wordpress"
