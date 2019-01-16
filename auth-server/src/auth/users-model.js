@@ -56,6 +56,7 @@ users.methods.generateToken = function() {
     id: this._id,
     role: this.role,
   };
+  console.log(token);
   return jwt.sign(token, process.env.SECRET);
 };
 
